@@ -1,46 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta
         name="description"
         content="Saif El Eslam Mostafa El Sherbini — Business & Data Analyst specializing in Business Analytics, Business Intelligence, SQL, Python, Power BI and practical digital solutions."
     >
+
     <meta
         name="keywords"
         content="Saif El Eslam Mostafa, Business Analyst, Data Analyst, Business Analytics, Power BI, Python, SQL, Tableau, HR Analytics"
     >
-    <meta name="author" content="Saif El Eslam Mostafa El Sherbini">
 
-    <meta property="og:title" content="Saif El Eslam Mostafa | Business & Data Analyst">
+    <meta
+        name="author"
+        content="Saif El Eslam Mostafa El Sherbini"
+    >
+
+    <meta
+        property="og:title"
+        content="Saif El Eslam Mostafa | Business & Data Analyst"
+    >
+
     <meta
         property="og:description"
         content="Business & Data Analyst specializing in analytics, BI, business analysis and digital solutions."
     >
-    <meta property="og:type" content="website">
 
-    <title>Saif El Eslam Mostafa | Business & Data Analyst</title>
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <title>
+        Saif El Eslam Mostafa | Business & Data Analyst
+    </title>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
         rel="stylesheet"
     >
 
+    <!-- Your CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <style>
+
+  
+        .language-switch {
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.05);
+            color: #ffffff;
+            padding: 0.55rem 0.9rem;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            margin-left: 1rem;
+        }
+
+        .language-switch:hover {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-1px);
+        }
+
+ 
+        html[dir="rtl"] body {
+            direction: rtl;
+            font-family: Tahoma, Arial, sans-serif;
+        }
+
+        html[dir="rtl"] .nav {
+            direction: rtl;
+        }
+
+        html[dir="rtl"] nav {
+            direction: rtl;
+        }
+
+        html[dir="rtl"] .hero {
+            direction: rtl;
+        }
+
+        html[dir="rtl"] .hero-copy {
+            text-align: right;
+        }
+
+        html[dir="rtl"] .hero-card {
+            direction: ltr;
+        }
+
+        html[dir="rtl"] .section {
+            direction: rtl;
+        }
+
+        html[dir="rtl"] .section-head {
+            direction: rtl;
+        }
+
+        html[dir="rtl"] .section-text {
+            text-align: right;
+        }
+
+        html[dir="rtl"] .timeline {
+            direction: rtl;
+        }
+
+        html[dir="rtl"] .timeline-content {
+            text-align: right;
+        }
+
+        html[dir="rtl"] .project-body {
+            text-align: right;
+        }
+
+        html[dir="rtl"] .project-body ul {
+            padding-right: 1.3rem;
+            padding-left: 0;
+        }
+
+        html[dir="rtl"] .skill-card {
+            text-align: right;
+        }
+
+        html[dir="rtl"] .certificate {
+            direction: rtl;
+            text-align: right;
+        }
+
+        html[dir="rtl"] .education-card {
+            text-align: right;
+        }
+
+        html[dir="rtl"] .contact {
+            text-align: center;
+        }
+
+        html[dir="rtl"] footer {
+            direction: rtl;
+        }
+
+        html[dir="rtl"] .footer-links {
+            direction: rtl;
+        }
+
+        html[dir="rtl"] .language-switch {
+            margin-left: 0;
+            margin-right: 1rem;
+        }
+
+
+        @media (max-width: 768px) {
+
+            .language-switch {
+                margin-left: 0.5rem;
+                padding: 0.45rem 0.7rem;
+            }
+
+            html[dir="rtl"] .language-switch {
+                margin-left: 0;
+                margin-right: 0.5rem;
+            }
+
+        }
+
+    </style>
+
 </head>
+
 
 <body>
 
-<!-- ================= NAVIGATION ================= -->
+
 
 <header class="nav" id="navbar">
+
     <a href="#home" class="brand">
         Saif<span>.</span>
     </a>
+
 
     <button
         class="menu"
@@ -50,568 +204,1938 @@
         ☰
     </button>
 
+
     <nav id="navMenu">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#certifications">Courses & Certifications</a>
-        <a href="#contact">Contact</a>
+
+        <a href="#about" data-en="About" data-ar="نبذة عني">
+            About
+        </a>
+
+        <a href="#projects" data-en="Projects" data-ar="المشروعات">
+            Projects
+        </a>
+
+        <a href="#experience" data-en="Experience" data-ar="الخبرات">
+            Experience
+        </a>
+
+        <a href="#skills" data-en="Skills" data-ar="المهارات">
+            Skills
+        </a>
+
+        <a
+            href="#certifications"
+            data-en="Courses & Certifications"
+            data-ar="الدورات والشهادات"
+        >
+            Courses & Certifications
+        </a>
+
+        <a href="#contact" data-en="Contact" data-ar="تواصل معي">
+            Contact
+        </a>
+
     </nav>
+
+
+
+
+    <button
+        class="language-switch"
+        id="languageSwitch"
+        type="button"
+        aria-label="Switch language"
+    >
+        AR
+    </button>
+
 </header>
+
+
 
 <main>
 
-<!-- ================= HERO ================= -->
+
 
 <section id="home" class="hero section">
+
+
     <div class="hero-copy">
-        <p class="eyebrow">
+
+
+        <p
+            class="eyebrow"
+            data-en="BUSINESS & DATA ANALYST • MADINATY, CAIRO, EGYPT"
+            data-ar="محلل أعمال وبيانات • مدينتي، القاهرة، مصر"
+        >
             BUSINESS & DATA ANALYST • MADINATY, CAIRO, EGYPT
         </p>
 
+
         <h1>
-            Turning
-            <span>data into decisions.</span>
+
+            <span
+                class="hero-title-normal"
+                data-en="Turning "
+                data-ar="تحويل "
+            >
+                Turning
+            </span>
+
+            <span
+                data-en="data into decisions."
+                data-ar="البيانات إلى قرارات."
+            >
+                data into decisions.
+            </span>
+
         </h1>
 
-        <p class="lead">
+
+        <p
+            class="lead"
+            data-en="I'm Saif El Eslam Mostafa El Sherbini, a Business Informatics graduate specializing in Business Analytics. I focus on Business Intelligence (BI), Data Analytics, and data-driven strategy to transform complex datasets into actionable operational and executive insights."
+            data-ar="أنا سيف الإسلام مصطفى الشربيني، خريج نظم معلومات الأعمال ومتخصص في تحليلات الأعمال. أركز على ذكاء الأعمال (BI)، وتحليل البيانات، والاستراتيجيات القائمة على البيانات لتحويل مجموعات البيانات المعقدة إلى رؤى عملية قابلة للتنفيذ تساعد في اتخاذ القرارات التشغيلية والتنفيذية."
+        >
             I'm Saif El Eslam Mostafa El Sherbini, a Business Informatics graduate specializing in Business Analytics. I focus on Business Intelligence (BI), Data Analytics, and data-driven strategy to transform complex datasets into actionable operational and executive insights.
         </p>
 
-        <p class="lead secondary-lead">
+
+        <p
+            class="lead secondary-lead"
+            data-en="Alongside analytics, I build practical digital solutions, automated workflows, and mobile applications to solve real-world business challenges."
+            data-ar="وبجانب التحليلات، أقوم بتطوير حلول رقمية عملية، وأتمتة سير العمل، وتطبيقات الهاتف المحمول لحل تحديات الأعمال الواقعية."
+        >
             Alongside analytics, I build practical digital solutions, automated workflows, and mobile applications to solve real-world business challenges.
         </p>
 
+
         <div class="actions">
-            <a class="btn primary" href="#projects">
+
+
+            <a
+                class="btn primary"
+                href="#projects"
+                data-en="Explore My Work"
+                data-ar="استكشف أعمالي"
+            >
                 Explore My Work
             </a>
-            <a class="btn ghost" href="Saif_El_Eslam_Mostafa_CV.pdf" download>
+
+
+            <a
+                class="btn ghost"
+                href="Saif_El_Eslam_Mostafa_CV.pdf"
+                download
+                data-en="Download CV"
+                data-ar="تحميل السيرة الذاتية"
+            >
                 Download CV
             </a>
+
         </div>
+
 
         <div class="socials">
-            <a href="https://www.linkedin.com/in/saif-el-eslam-el-sherbine-64a0b9278/" target="_blank" rel="noopener noreferrer">
+
+            <a
+                href="https://www.linkedin.com/in/saif-el-eslam-el-sherbine-64a0b9278/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 LinkedIn ↗
             </a>
-            <a href="mailto:saifmostafa565@gmail.com">
+
+            <a
+                href="mailto:saifmostafa565@gmail.com"
+                data-en="Email ↗"
+                data-ar="البريد الإلكتروني ↗"
+            >
                 Email ↗
             </a>
+
         </div>
+
     </div>
 
-    <!-- HERO VISUAL -->
+
+
+
     <div class="hero-card">
+
         <div class="orb"></div>
+
+
         <div class="analytics-card">
+
+
             <div class="card-top">
-                <span class="muted">saif.profile</span>
-                <span class="status">● Available</span>
+
+                <span class="muted">
+                    saif.profile
+                </span>
+
+                <span
+                    class="status"
+                    data-en="● Available"
+                    data-ar="● متاح"
+                >
+                    ● Available
+                </span>
+
             </div>
 
-            <div class="profile-line">
-                <span class="key">role</span>
-                <span>"Business & Data Analyst"</span>
-            </div>
 
             <div class="profile-line">
-                <span class="key">focus</span>
-                <span>["Analytics", "BI", "Strategy"]</span>
+
+                <span
+                    class="key"
+                    data-en="role"
+                    data-ar="الدور"
+                >
+                    role
+                </span>
+
+                <span>
+                    "Business & Data Analyst"
+                </span>
+
             </div>
 
-            <div class="profile-line">
-                <span class="key">tools</span>
-                <span>["Power BI", "Python", "SQL", "Tableau"]</span>
-            </div>
 
             <div class="profile-line">
-                <span class="key">mindset</span>
-                <span>"Analyze. Optimize. Impact."</span>
+
+                <span
+                    class="key"
+                    data-en="focus"
+                    data-ar="التركيز"
+                >
+                    focus
+                </span>
+
+                <span>
+                    ["Analytics", "BI", "Strategy"]
+                </span>
+
             </div>
+
+
+            <div class="profile-line">
+
+                <span
+                    class="key"
+                    data-en="tools"
+                    data-ar="الأدوات"
+                >
+                    tools
+                </span>
+
+                <span>
+                    ["Power BI", "Python", "SQL", "Tableau"]
+                </span>
+
+            </div>
+
+
+            <div class="profile-line">
+
+                <span
+                    class="key"
+                    data-en="mindset"
+                    data-ar="العقلية"
+                >
+                    mindset
+                </span>
+
+                <span
+                    data-en='"Analyze. Optimize. Impact."'
+                    data-ar='"حلل. طوّر. اصنع تأثيرًا."'
+                >
+                    "Analyze. Optimize. Impact."
+                </span>
+
+            </div>
+
 
             <div class="mini-chart">
+
                 <div class="chart-bar bar-1"></div>
                 <div class="chart-bar bar-2"></div>
                 <div class="chart-bar bar-3"></div>
                 <div class="chart-bar bar-4"></div>
                 <div class="chart-bar bar-5"></div>
                 <div class="chart-bar bar-6"></div>
+
             </div>
+
         </div>
+
     </div>
+
 </section>
 
-<!-- ================= ABOUT ================= -->
+
+
 
 <section id="about" class="section narrow">
-    <p class="eyebrow">ABOUT ME</p>
 
-    <h2>An analyst with a technology-driven mindset.</h2>
 
-    <p class="section-text">
+    <p
+        class="eyebrow"
+        data-en="ABOUT ME"
+        data-ar="نبذة عني"
+    >
+        ABOUT ME
+    </p>
+
+
+    <h2
+        data-en="An analyst with a technology-driven mindset."
+        data-ar="محلل أعمال بعقلية تقنية."
+    >
+        An analyst with a technology-driven mindset.
+    </h2>
+
+
+    <p
+        class="section-text"
+        data-en="I hold a Bachelor's degree in Business Informatics (Major in Business Analytics) from Egypt University of Informatics. I bridge the gap between technical data engineering and executive decision-making."
+        data-ar="حاصل على درجة البكالوريوس في نظم معلومات الأعمال، تخصص تحليلات الأعمال، من جامعة مصر للمعلوماتية. أعمل على الربط بين هندسة البيانات التقنية وصنع القرار التنفيذي."
+    >
         I hold a Bachelor's degree in Business Informatics (Major in Business Analytics) from Egypt University of Informatics. I bridge the gap between technical data engineering and executive decision-making.
     </p>
 
-    <p class="section-text">
+
+    <p
+        class="section-text"
+        data-en="Technically proficient in Python (Pandas, NumPy), Power BI, Tableau, Advanced Excel, SQL, and database management systems, I specialize in cleaning messy data (Power Query), constructing relational models, and designing interactive dashboards that visualize critical KPIs."
+        data-ar="أمتلك خبرة تقنية في Python (Pandas, NumPy)، وPower BI، وTableau، وAdvanced Excel، وSQL، وأنظمة إدارة قواعد البيانات. أتخصص في تنظيف البيانات غير المنظمة باستخدام Power Query، وبناء النماذج العلائقية، وتصميم لوحات معلومات تفاعلية لعرض مؤشرات الأداء الرئيسية."
+    >
         Technically proficient in Python (Pandas, NumPy), Power BI, Tableau, Advanced Excel, SQL, and database management systems, I specialize in cleaning messy data (Power Query), constructing relational models, and designing interactive dashboards that visualize critical KPIs.
     </p>
 
+
+
     <div class="stats">
-        <div class="stat-card">
-            <div class="stat-icon">📊</div>
-            <strong>Data & BI Analytics</strong>
-            <span>Creating executive KPI dashboards, predictive insights, and trend analysis.</span>
-        </div>
+
 
         <div class="stat-card">
-            <div class="stat-icon">💼</div>
-            <strong>Business Strategy</strong>
-            <span>Translating requirements, root cause analysis, and operational optimization.</span>
+
+            <div class="stat-icon">
+                📊
+            </div>
+
+            <strong
+                data-en="Data & BI Analytics"
+                data-ar="تحليلات البيانات وذكاء الأعمال"
+            >
+                Data & BI Analytics
+            </strong>
+
+            <span
+                data-en="Creating executive KPI dashboards, predictive insights, and trend analysis."
+                data-ar="إنشاء لوحات مؤشرات تنفيذية، وتحليلات تنبؤية، وتحليل الاتجاهات."
+            >
+                Creating executive KPI dashboards, predictive insights, and trend analysis.
+            </span>
+
         </div>
 
+
+
         <div class="stat-card">
-            <div class="stat-icon">⚙️</div>
-            <strong>Digital & AI Automation</strong>
-            <span>Building mobile tools, Python applications, and AI workflow automation (n8n).</span>
+
+            <div class="stat-icon">
+                💼
+            </div>
+
+            <strong
+                data-en="Business Strategy"
+                data-ar="استراتيجية الأعمال"
+            >
+                Business Strategy
+            </strong>
+
+            <span
+                data-en="Translating requirements, root cause analysis, and operational optimization."
+                data-ar="تحويل متطلبات الأعمال إلى حلول، وتحليل الأسباب الجذرية، وتحسين العمليات."
+            >
+                Translating requirements, root cause analysis, and operational optimization.
+            </span>
+
         </div>
+
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+                ⚙️
+            </div>
+
+            <strong
+                data-en="Digital & AI Automation"
+                data-ar="الأتمتة الرقمية والذكاء الاصطناعي"
+            >
+                Digital & AI Automation
+            </strong>
+
+            <span
+                data-en="Building mobile tools, Python applications, and AI workflow automation (n8n)."
+                data-ar="بناء تطبيقات الهاتف، وتطبيقات Python، وأتمتة سير العمل باستخدام الذكاء الاصطناعي وn8n."
+            >
+                Building mobile tools, Python applications, and AI workflow automation (n8n).
+            </span>
+
+        </div>
+
+
     </div>
+
 </section>
 
-<!-- ================= PROJECTS ================= -->
+
+
 
 <section id="projects" class="section">
+
+
     <div class="section-head">
+
         <div>
-            <p class="eyebrow">SELECTED WORK</p>
-            <h2>Projects & Case Studies</h2>
+
+            <p
+                class="eyebrow"
+                data-en="SELECTED WORK"
+                data-ar="أعمال مختارة"
+            >
+                SELECTED WORK
+            </p>
+
+            <h2
+                data-en="Projects & Case Studies"
+                data-ar="المشروعات ودراسات الحالة"
+            >
+                Projects & Case Studies
+            </h2>
+
         </div>
-        <p class="section-text small">
+
+
+        <p
+            class="section-text small"
+            data-en="A showcase of my graduation project, analytical dashboards, academic work, and technical solutions."
+            data-ar="مجموعة من مشروع التخرج، ولوحات التحليل، والمشروعات الأكاديمية، والحلول التقنية."
+        >
             A showcase of my graduation project, analytical dashboards, academic work, and technical solutions.
         </p>
+
     </div>
+
+
 
     <div class="projects">
 
-        <!-- 1. SOULPING CARE (GRADUATION PROJECT) -->
+
+
+     
         <article class="project featured soulping-project">
+
+
             <div class="project-visual soulping-visual">
+
                 <div class="soulping-logo">
                     <span>SP</span>
                 </div>
+
             </div>
 
+
             <div class="project-body">
-                <span class="tag">GRADUATION PROJECT</span>
-                <h3>SoulPing Care — Privacy-Preserving Elder Monitoring System</h3>
-                <p>
+
+
+                <span
+                    class="tag"
+                    data-en="GRADUATION PROJECT"
+                    data-ar="مشروع التخرج"
+                >
+                    GRADUATION PROJECT
+                </span>
+
+
+                <h3
+                    data-en="SoulPing Care — Privacy-Preserving Elder Monitoring System"
+                    data-ar="SoulPing Care — نظام لمتابعة كبار السن مع الحفاظ على الخصوصية"
+                >
+                    SoulPing Care — Privacy-Preserving Elder Monitoring System
+                </h3>
+
+
+                <p
+                    data-en="A Flutter and Firebase mobile application designed to passively monitor smartphone activity and detect prolonged senior inactivity without using invasive tools like GPS tracking or cameras."
+                    data-ar="تطبيق للهاتف المحمول باستخدام Flutter وFirebase، تم تصميمه لمراقبة نشاط الهاتف بشكل غير تدخلي واكتشاف فترات عدم النشاط الطويلة لكبار السن دون استخدام أدوات تدخلية مثل تتبع GPS أو الكاميرات."
+                >
                     A Flutter and Firebase mobile application designed to passively monitor smartphone activity and detect prolonged senior inactivity without using invasive tools like GPS tracking or cameras.
                 </p>
 
+
                 <div class="tech">
+
                     <span>Flutter</span>
                     <span>Dart</span>
                     <span>Firebase</span>
                     <span>Cloud Firestore</span>
                     <span>FCM</span>
                     <span>Figma</span>
+
                 </div>
+
 
                 <ul>
-                    <li>Implemented intelligent passive inactivity detection and automated Soft Ping check-in prompts.</li>
-                    <li>Integrated emergency SOS functionality and real-time trusted-contact escalation alerts via FCM.</li>
-                    <li>Designed an accessible, senior-focused UI/UX and structured full system analysis and documentation.</li>
+
+                    <li
+                        data-en="Implemented intelligent passive inactivity detection and automated Soft Ping check-in prompts."
+                        data-ar="تطوير نظام ذكي لاكتشاف عدم النشاط بشكل تلقائي وإرسال تنبيهات Soft Ping للتحقق من حالة المستخدم."
+                    >
+                        Implemented intelligent passive inactivity detection and automated Soft Ping check-in prompts.
+                    </li>
+
+                    <li
+                        data-en="Integrated emergency SOS functionality and real-time trusted-contact escalation alerts via FCM."
+                        data-ar="دمج خاصية الطوارئ SOS وتنبيهات التصعيد الفورية لجهات الاتصال الموثوقة باستخدام FCM."
+                    >
+                        Integrated emergency SOS functionality and real-time trusted-contact escalation alerts via FCM.
+                    </li>
+
+                    <li
+                        data-en="Designed an accessible, senior-focused UI/UX and structured full system analysis and documentation."
+                        data-ar="تصميم واجهة وتجربة مستخدم سهلة الاستخدام ومناسبة لكبار السن، مع إعداد تحليل وتوثيق كامل للنظام."
+                    >
+                        Designed an accessible, senior-focused UI/UX and structured full system analysis and documentation.
+                    </li>
+
                 </ul>
+
             </div>
+
         </article>
 
-        <!-- 2. HR ANALYTICS DASHBOARD (PERSONAL PROJECT) -->
+
+
+    
         <article class="project featured">
+
+
             <div class="project-visual dashboard-visual">
+
                 <div class="dashboard-window">
-                    <div class="dashboard-header">HR ANALYTICS KPI DASHBOARD</div>
+
+                    <div
+                        class="dashboard-header"
+                        data-en="HR ANALYTICS KPI DASHBOARD"
+                        data-ar="لوحة مؤشرات تحليلات الموارد البشرية"
+                    >
+                        HR ANALYTICS KPI DASHBOARD
+                    </div>
+
+
                     <div class="dashboard-content">
-                        <div class="metric"><small>EMPLOYEES</small><strong>1,470</strong></div>
-                        <div class="metric"><small>PROMOTION DUE</small><strong>72</strong></div>
-                        <div class="metric"><small>RETRENCHMENT</small><strong>117</strong></div>
+
+                        <div class="metric">
+
+                            <small
+                                data-en="EMPLOYEES"
+                                data-ar="الموظفون"
+                            >
+                                EMPLOYEES
+                            </small>
+
+                            <strong>
+                                1,470
+                            </strong>
+
+                        </div>
+
+
+                        <div class="metric">
+
+                            <small
+                                data-en="PROMOTION DUE"
+                                data-ar="مستحقو الترقية"
+                            >
+                                PROMOTION DUE
+                            </small>
+
+                            <strong>
+                                72
+                            </strong>
+
+                        </div>
+
+
+                        <div class="metric">
+
+                            <small
+                                data-en="RETRENCHMENT"
+                                data-ar="التخفيض الوظيفي"
+                            >
+                                RETRENCHMENT
+                            </small>
+
+                            <strong>
+                                117
+                            </strong>
+
+                        </div>
+
                     </div>
+
+
                     <div class="fake-chart">
-                        <span></span><span></span><span></span><span></span><span></span><span></span>
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
                     </div>
+
                 </div>
+
             </div>
 
+
+
             <div class="project-body">
-                <span class="tag">PERSONAL PROJECT</span>
-                <h3>HR Analytics & Workforce Dashboard</h3>
-                <p>
+
+
+                <span
+                    class="tag"
+                    data-en="PERSONAL PROJECT"
+                    data-ar="مشروع شخصي"
+                >
+                    PERSONAL PROJECT
+                </span>
+
+
+                <h3
+                    data-en="HR Analytics & Workforce Dashboard"
+                    data-ar="لوحة تحليلات الموارد البشرية والقوى العاملة"
+                >
+                    HR Analytics & Workforce Dashboard
+                </h3>
+
+
+                <p
+                    data-en="A comprehensive Power BI dashboard built to evaluate workforce demographics, promotion readiness, retrenchment risks, and employee satisfaction trends across 1,470 staff members."
+                    data-ar="لوحة معلومات شاملة باستخدام Power BI لتحليل خصائص القوى العاملة، والاستعداد للترقية، ومخاطر تخفيض العمالة، واتجاهات رضا الموظفين عبر 1,470 موظفًا."
+                >
                     A comprehensive Power BI dashboard built to evaluate workforce demographics, promotion readiness, retrenchment risks, and employee satisfaction trends across 1,470 staff members.
                 </p>
 
+
                 <div class="tech">
+
                     <span>Power BI</span>
                     <span>DAX</span>
                     <span>Power Query</span>
                     <span>HR Analytics</span>
+
                 </div>
+
 
                 <ul>
-                    <li>Visualized core HR metrics including gender balance (60% Male / 40% Female), tenure, and job roles.</li>
-                    <li>Identified key operational patterns, such as overtime tendencies (28.3% working overtime) and satisfaction scores.</li>
-                    <li>Built dynamic drill-down tables to isolate actionable cohorts (72 due for promotion, 117 affected by retrenchment).</li>
+
+                    <li
+                        data-en="Visualized core HR metrics including gender balance (60% Male / 40% Female), tenure, and job roles."
+                        data-ar="تصوير مؤشرات الموارد البشرية الأساسية، بما في ذلك التوزيع بين الجنسين (60% ذكور / 40% إناث)، ومدة الخدمة، والأدوار الوظيفية."
+                    >
+                        Visualized core HR metrics including gender balance (60% Male / 40% Female), tenure, and job roles.
+                    </li>
+
+                    <li
+                        data-en="Identified key operational patterns, such as overtime tendencies (28.3% working overtime) and satisfaction scores."
+                        data-ar="تحديد الأنماط التشغيلية الرئيسية، مثل اتجاهات العمل الإضافي (28.3% يعملون لساعات إضافية) ومستويات رضا الموظفين."
+                    >
+                        Identified key operational patterns, such as overtime tendencies (28.3% working overtime) and satisfaction scores.
+                    </li>
+
+                    <li
+                        data-en="Built dynamic drill-down tables to isolate actionable cohorts (72 due for promotion, 117 affected by retrenchment)."
+                        data-ar="إنشاء جداول تحليلية تفاعلية لتحديد الفئات التي تتطلب إجراءات، بما في ذلك 72 موظفًا مستحقًا للترقية و117 موظفًا متأثرًا بتخفيض العمالة."
+                    >
+                        Built dynamic drill-down tables to isolate actionable cohorts (72 due for promotion, 117 affected by retrenchment).
+                    </li>
+
                 </ul>
+
             </div>
+
         </article>
 
-        <!-- 3. US CANDY DISTRIBUTION DASHBOARD -->
+
+
+        
         <article class="project">
+
+
             <div class="project-visual dashboard-visual">
+
                 <div class="dashboard-window">
-                    <div class="dashboard-header">SALES & TARGET DASHBOARD</div>
+
+                    <div
+                        class="dashboard-header"
+                        data-en="SALES & TARGET DASHBOARD"
+                        data-ar="لوحة المبيعات والأهداف"
+                    >
+                        SALES & TARGET DASHBOARD
+                    </div>
+
+
                     <div class="dashboard-content">
-                        <div class="metric"><small>SALES</small><strong>↗</strong></div>
-                        <div class="metric"><small>TARGET</small><strong>↗</strong></div>
-                        <div class="metric"><small>CUSTOMERS</small><strong>↗</strong></div>
+
+                        <div class="metric">
+
+                            <small
+                                data-en="SALES"
+                                data-ar="المبيعات"
+                            >
+                                SALES
+                            </small>
+
+                            <strong>↗</strong>
+
+                        </div>
+
+
+                        <div class="metric">
+
+                            <small
+                                data-en="TARGET"
+                                data-ar="الهدف"
+                            >
+                                TARGET
+                            </small>
+
+                            <strong>↗</strong>
+
+                        </div>
+
+
+                        <div class="metric">
+
+                            <small
+                                data-en="CUSTOMERS"
+                                data-ar="العملاء"
+                            >
+                                CUSTOMERS
+                            </small>
+
+                            <strong>↗</strong>
+
+                        </div>
+
                     </div>
+
+
                     <div class="fake-chart">
-                        <span></span><span></span><span></span><span></span><span></span><span></span>
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
                     </div>
+
                 </div>
+
             </div>
 
+
+
             <div class="project-body">
-                <span class="tag">ACADEMIC PROJECT</span>
-                <h3>US Candy Distribution Dashboard</h3>
-                <p>
+
+
+                <span
+                    class="tag"
+                    data-en="ACADEMIC PROJECT"
+                    data-ar="مشروع أكاديمي"
+                >
+                    ACADEMIC PROJECT
+                </span>
+
+
+                <h3
+                    data-en="US Candy Distribution Dashboard"
+                    data-ar="لوحة توزيع الحلوى في الولايات المتحدة"
+                >
+                    US Candy Distribution Dashboard
+                </h3>
+
+
+                <p
+                    data-en="An analytical Power BI report built to clean raw distribution dataset, visualize performance against targets, and deliver clear customer segmentation insights."
+                    data-ar="تقرير تحليلي باستخدام Power BI لتنظيف بيانات التوزيع الخام، وتحليل الأداء مقارنة بالأهداف، وتقديم رؤى واضحة حول شرائح العملاء."
+                >
                     An analytical Power BI report built to clean raw distribution dataset, visualize performance against targets, and deliver clear customer segmentation insights.
                 </p>
 
+
                 <div class="tech">
+
                     <span>Power BI</span>
                     <span>Power Query</span>
                     <span>Data Cleaning</span>
                     <span>Data Visualization</span>
+
                 </div>
 
+
                 <ul>
-                    <li>Engineered Power Query data pipelines to clean and transform complex retail datasets.</li>
-                    <li>Visualized multi-region sales performance and benchmarked achievements against corporate targets.</li>
-                    <li>Evaluated customer ordering habits to surface revenue drivers.</li>
+
+                    <li
+                        data-en="Engineered Power Query data pipelines to clean and transform complex retail datasets."
+                        data-ar="إنشاء عمليات معالجة باستخدام Power Query لتنظيف وتحويل مجموعات بيانات البيع بالتجزئة المعقدة."
+                    >
+                        Engineered Power Query data pipelines to clean and transform complex retail datasets.
+                    </li>
+
+                    <li
+                        data-en="Visualized multi-region sales performance and benchmarked achievements against corporate targets."
+                        data-ar="تحليل أداء المبيعات عبر مناطق متعددة ومقارنة النتائج بالأهداف المؤسسية."
+                    >
+                        Visualized multi-region sales performance and benchmarked achievements against corporate targets.
+                    </li>
+
+                    <li
+                        data-en="Evaluated customer ordering habits to surface revenue drivers."
+                        data-ar="تحليل سلوكيات طلب العملاء لتحديد العوامل الرئيسية المؤثرة في الإيرادات."
+                    >
+                        Evaluated customer ordering habits to surface revenue drivers.
+                    </li>
+
                 </ul>
+
             </div>
+
         </article>
 
-        <!-- 4. ATTENDANCE SYSTEM USING PYTHON -->
+
+
+      
         <article class="project">
+
+
             <div class="project-visual python-visual">
+
                 <div class="visual-code">
-                    <span>Python</span>
+
+                    <span>
+                        Python
+                    </span>
+
                     <code>
                         import pandas as pd<br>
                         import numpy as np<br>
                         hr_analytics()
                     </code>
+
                 </div>
+
             </div>
 
+
+
             <div class="project-body">
-                <span class="tag">ACADEMIC PROJECT</span>
-                <h3>Attendance System & Employee Analytics</h3>
-                <p>
+
+
+                <span
+                    class="tag"
+                    data-en="ACADEMIC PROJECT"
+                    data-ar="مشروع أكاديمي"
+                >
+                    ACADEMIC PROJECT
+                </span>
+
+
+                <h3
+                    data-en="Attendance System & Employee Analytics"
+                    data-ar="نظام الحضور وتحليلات الموظفين"
+                >
+                    Attendance System & Employee Analytics
+                </h3>
+
+
+                <p
+                    data-en="A dual Python desktop application suite designed for administrative HR management and employee check-in, paired with an analytical pipeline for staff reporting."
+                    data-ar="مجموعة من تطبيقات سطح المكتب باستخدام Python لإدارة الموارد البشرية وتسجيل حضور الموظفين، إلى جانب نظام تحليلي لإعداد تقارير الموظفين."
+                >
                     A dual Python desktop application suite designed for administrative HR management and employee check-in, paired with an analytical pipeline for staff reporting.
                 </p>
 
+
                 <div class="tech">
+
                     <span>Python</span>
                     <span>Pandas</span>
                     <span>NumPy</span>
                     <span>Data Processing</span>
+
                 </div>
 
+
                 <ul>
-                    <li>Developed two distinct applications: one tailored for HR administration and another for employee access.</li>
-                    <li>Leveraged NumPy and Pandas to clean, format, and aggregate operational attendance logs.</li>
-                    <li>Generated automated summaries on work hours, absenteeism patterns, and workforce productivity metrics.</li>
+
+                    <li
+                        data-en="Developed two distinct applications: one tailored for HR administration and another for employee access."
+                        data-ar="تطوير تطبيقين منفصلين، أحدهما لإدارة الموارد البشرية والآخر لتسجيل دخول الموظفين."
+                    >
+                        Developed two distinct applications: one tailored for HR administration and another for employee access.
+                    </li>
+
+                    <li
+                        data-en="Leveraged NumPy and Pandas to clean, format, and aggregate operational attendance logs."
+                        data-ar="استخدام NumPy وPandas لتنظيف وتنسيق وتجميع سجلات الحضور التشغيلية."
+                    >
+                        Leveraged NumPy and Pandas to clean, format, and aggregate operational attendance logs.
+                    </li>
+
+                    <li
+                        data-en="Generated automated summaries on work hours, absenteeism patterns, and workforce productivity metrics."
+                        data-ar="إنشاء ملخصات تلقائية لساعات العمل وأنماط الغياب ومؤشرات إنتاجية القوى العاملة."
+                    >
+                        Generated automated summaries on work hours, absenteeism patterns, and workforce productivity metrics.
+                    </li>
+
                 </ul>
+
             </div>
+
         </article>
 
-        <!-- 5. HSBC AI BUSINESS IDEATION -->
+
+
+      
         <article class="project">
+
+
             <div class="project-visual ai-visual">
-                <div class="ai-circle">AI</div>
+
+                <div class="ai-circle">
+                    AI
+                </div>
+
                 <div class="ai-lines"></div>
+
             </div>
 
+
+
             <div class="project-body">
-                <span class="tag">VIRTUAL SIMULATION</span>
-                <h3>AI Business Ideation & Net Zero Strategy</h3>
-                <p>
+
+
+                <span
+                    class="tag"
+                    data-en="VIRTUAL SIMULATION"
+                    data-ar="محاكاة افتراضية"
+                >
+                    VIRTUAL SIMULATION
+                </span>
+
+
+                <h3
+                    data-en="AI Business Ideation & Net Zero Strategy"
+                    data-ar="ابتكار حلول الأعمال بالذكاء الاصطناعي واستراتيجية صافي الانبعاثات الصفرية"
+                >
+                    AI Business Ideation & Net Zero Strategy
+                </h3>
+
+
+                <p
+                    data-en="A simulation experience with HSBC Forage focused on planning corporate Net Zero initiatives using data recommendations and artificial intelligence ideation frameworks."
+                    data-ar="تجربة محاكاة مع HSBC Forage ركزت على تخطيط مبادرات صافي الانبعاثات الصفرية للشركات باستخدام التوصيات القائمة على البيانات وأطر الابتكار بالذكاء الاصطناعي."
+                >
                     A simulation experience with HSBC Forage focused on planning corporate Net Zero initiatives using data recommendations and artificial intelligence ideation frameworks.
                 </p>
 
+
                 <div class="tech">
+
                     <span>Business Analysis</span>
                     <span>Sustainability Metrics</span>
                     <span>AI Ideation</span>
                     <span>Net Zero Strategy</span>
+
                 </div>
 
+
                 <ul>
-                    <li>Formulated data-driven strategy proposals aligning with sustainability metrics and carbon targets.</li>
-                    <li>Evaluated AI automation tools for business process integration and green operational shifts.</li>
+
+                    <li
+                        data-en="Formulated data-driven strategy proposals aligning with sustainability metrics and carbon targets."
+                        data-ar="إعداد مقترحات استراتيجية قائمة على البيانات ومتوافقة مع مؤشرات الاستدامة وأهداف خفض الانبعاثات الكربونية."
+                    >
+                        Formulated data-driven strategy proposals aligning with sustainability metrics and carbon targets.
+                    </li>
+
+                    <li
+                        data-en="Evaluated AI automation tools for business process integration and green operational shifts."
+                        data-ar="تقييم أدوات الأتمتة بالذكاء الاصطناعي لدمجها في العمليات وتحقيق تحول تشغيلي أكثر استدامة."
+                    >
+                        Evaluated AI automation tools for business process integration and green operational shifts.
+                    </li>
+
                 </ul>
+
             </div>
+
         </article>
 
+
     </div>
+
 </section>
 
-<!-- ================= EXPERIENCE ================= -->
+
+
 
 <section id="experience" class="section narrow">
-    <p class="eyebrow">EXPERIENCE</p>
-    <h2>Work & Internship History</h2>
+
+
+    <p
+        class="eyebrow"
+        data-en="EXPERIENCE"
+        data-ar="الخبرات"
+    >
+        EXPERIENCE
+    </p>
+
+
+    <h2
+        data-en="Work & Internship History"
+        data-ar="الخبرات العملية والتدريب"
+    >
+        Work & Internship History
+    </h2>
+
+
 
     <div class="timeline">
 
+
+        <!-- ARAB BANK -->
+
         <div class="timeline-item">
+
             <div class="timeline-dot"></div>
+
+
             <div class="timeline-content">
-                <span class="timeline-date">Banking Sector</span>
-                <h3>Arab Bank</h3>
-                <h4>Customer Care Officer</h4>
-                <p>
+
+
+                <span
+                    class="timeline-date"
+                    data-en="Banking Sector"
+                    data-ar="القطاع المصرفي"
+                >
+                    Banking Sector
+                </span>
+
+
+                <h3>
+                    Arab Bank
+                </h3>
+
+
+                <h4
+                    data-en="Customer Care Officer"
+                    data-ar="مسؤول خدمة عملاء"
+                >
+                    Customer Care Officer
+                </h4>
+
+
+                <p
+                    data-en="Delivered high-quality customer support at Arab Bank by efficiently resolving account inquiries, processing service requests, and streamlining workflows while ensuring strict compliance with banking operations and data confidentiality standards."
+                    data-ar="تقديم خدمة عملاء عالية الجودة في البنك العربي من خلال التعامل بكفاءة مع استفسارات الحسابات، ومعالجة طلبات الخدمة، وتحسين سير العمل مع الالتزام الصارم بالعمليات المصرفية ومعايير سرية البيانات."
+                >
                     Delivered high-quality customer support at Arab Bank by efficiently resolving account inquiries, processing service requests, and streamlining workflows while ensuring strict compliance with banking operations and data confidentiality standards.
                 </p>
+
+
                 <ul>
-                    <li>Client Relations & Support: Resolved high-volume inquiries regarding retail banking products, account management, and digital services.</li>
-                    <li>Operational Compliance: Handled sensitive financial data and transaction requests following regulatory standards and bank policies.</li>
-					<li>Problem Resolution: Conducted root-cause analysis for escalated client issues to deliver swift, accurate solutions.</li>
+
+                    <li
+                        data-en="Client Relations & Support: Resolved high-volume inquiries regarding retail banking products, account management, and digital services."
+                        data-ar="علاقات العملاء والدعم: التعامل مع عدد كبير من الاستفسارات المتعلقة بالمنتجات المصرفية للأفراد وإدارة الحسابات والخدمات الرقمية."
+                    >
+                        Client Relations & Support: Resolved high-volume inquiries regarding retail banking products, account management, and digital services.
+                    </li>
+
+
+                    <li
+                        data-en="Operational Compliance: Handled sensitive financial data and transaction requests following regulatory standards and bank policies."
+                        data-ar="الالتزام التشغيلي: التعامل مع البيانات المالية الحساسة وطلبات المعاملات وفقًا للمعايير التنظيمية وسياسات البنك."
+                    >
+                        Operational Compliance: Handled sensitive financial data and transaction requests following regulatory standards and bank policies.
+                    </li>
+
+
+                    <li
+                        data-en="Problem Resolution: Conducted root-cause analysis for escalated client issues to deliver swift, accurate solutions."
+                        data-ar="حل المشكلات: إجراء تحليل للأسباب الجذرية للمشكلات التي يتم تصعيدها من العملاء لتقديم حلول سريعة ودقيقة."
+                    >
+                        Problem Resolution: Conducted root-cause analysis for escalated client issues to deliver swift, accurate solutions.
+                    </li>
+
                 </ul>
+
             </div>
+
         </div>
 
+
+
+        <!-- TICKETSMARCHE -->
+
         <div class="timeline-item">
+
             <div class="timeline-dot"></div>
+
+
             <div class="timeline-content">
-                <span class="timeline-date">Ticketing & Guest Services</span>
-                <h3>TicketsMarche</h3>
-                <h4>Event Usher (Cairo Design Week - Heliopolis | Winter Festival - Madinaty)</h4>
-                <p>
+
+
+                <span
+                    class="timeline-date"
+                    data-en="Ticketing & Guest Services"
+                    data-ar="التذاكر وخدمات الزوار"
+                >
+                    Ticketing & Guest Services
+                </span>
+
+
+                <h3>
+                    TicketsMarche
+                </h3>
+
+
+                <h4
+                    data-en="Event Usher (Cairo Design Week - Heliopolis | Winter Festival - Madinaty)"
+                    data-ar="منظم فعاليات (Cairo Design Week - مصر الجديدة | Winter Festival - مدينتي)"
+                >
+                    Event Usher (Cairo Design Week - Heliopolis | Winter Festival - Madinaty)
+                </h4>
+
+
+                <p
+                    data-en="Managed front-of-house operations, gate control, and attendee services during high-traffic regional events."
+                    data-ar="إدارة عمليات استقبال الجمهور وتنظيم البوابات وخدمات الحضور خلال الفعاليات الإقليمية ذات الإقبال المرتفع."
+                >
                     Managed front-of-house operations, gate control, and attendee services during high-traffic regional events.
                 </p>
+
+
                 <ul>
-                    <li>Verified ticketing codes and managed entry flow under high-volume pressure.</li>
-                    <li>Guided attendees to reserved seating zones while maintaining venue safety protocols.</li>
+
+                    <li
+                        data-en="Verified ticketing codes and managed entry flow under high-volume pressure."
+                        data-ar="التحقق من أكواد التذاكر وتنظيم دخول الحضور في ظل الضغط والأعداد الكبيرة."
+                    >
+                        Verified ticketing codes and managed entry flow under high-volume pressure.
+                    </li>
+
+
+                    <li
+                        data-en="Guided attendees to reserved seating zones while maintaining venue safety protocols."
+                        data-ar="توجيه الحضور إلى مناطق الجلوس المخصصة مع الحفاظ على قواعد السلامة داخل المكان."
+                    >
+                        Guided attendees to reserved seating zones while maintaining venue safety protocols.
+                    </li>
+
                 </ul>
+
             </div>
+
         </div>
 
+
+
+        <!-- TMG -->
+
         <div class="timeline-item">
+
             <div class="timeline-dot"></div>
+
+
             <div class="timeline-content">
-                <span class="timeline-date">1-Month Internship</span>
-                <h3>TMG (APMC) — HR Department</h3>
-                <h4>Personnel Section</h4>
-                <p>
+
+
+                <span
+                    class="timeline-date"
+                    data-en="1-Month Internship"
+                    data-ar="تدريب لمدة شهر"
+                >
+                    1-Month Internship
+                </span>
+
+
+                <h3>
+                    TMG (APMC) — HR Department
+                </h3>
+
+
+                <h4
+                    data-en="Personnel Section"
+                    data-ar="قسم شؤون العاملين"
+                >
+                    Personnel Section
+                </h4>
+
+
+                <p
+                    data-en="Gained hands-on operational experience within corporate HR structures, focusing on personnel records, legal documentation, and attendance reporting."
+                    data-ar="اكتساب خبرة عملية داخل هيكل الموارد البشرية في بيئة الشركات، مع التركيز على سجلات الموظفين والمستندات القانونية وتقارير الحضور."
+                >
                     Gained hands-on operational experience within corporate HR structures, focusing on personnel records, legal documentation, and attendance reporting.
                 </p>
+
+
                 <ul>
-                    <li>Maintained attendance, leave request systems, and staff contract files.</li>
-                    <li>Supported employee record auditing and personnel document digitization.</li>
-                    <li>Observed internal organizational procedures and HR database workflows.</li>
+
+                    <li
+                        data-en="Maintained attendance, leave request systems, and staff contract files."
+                        data-ar="متابعة الحضور وطلبات الإجازات وملفات عقود الموظفين."
+                    >
+                        Maintained attendance, leave request systems, and staff contract files.
+                    </li>
+
+
+                    <li
+                        data-en="Supported employee record auditing and personnel document digitization."
+                        data-ar="المساعدة في مراجعة سجلات الموظفين ورقمنة المستندات الخاصة بهم."
+                    >
+                        Supported employee record auditing and personnel document digitization.
+                    </li>
+
+
+                    <li
+                        data-en="Observed internal organizational procedures and HR database workflows."
+                        data-ar="التعرف على الإجراءات التنظيمية الداخلية وسير العمل في قواعد بيانات الموارد البشرية."
+                    >
+                        Observed internal organizational procedures and HR database workflows.
+                    </li>
+
                 </ul>
+
             </div>
+
         </div>
 
 
+
+        <!-- VOLUNTEER -->
 
         <div class="timeline-item">
+
             <div class="timeline-dot"></div>
+
+
             <div class="timeline-content">
-                <span class="timeline-date">Volunteer</span>
-                <h3>Boom Room — Event Usher</h3>
-                <h4>Lege-cy Concert, 2x Tommyy Concerts, Studio El Etnin, Saleh El Nawawy Stand-Up Comedy, Tablet El Sitt</h4>
-                <p>
+
+
+                <span
+                    class="timeline-date"
+                    data-en="Volunteer"
+                    data-ar="متطوع"
+                >
+                    Volunteer
+                </span>
+
+
+                <h3>
+                    Boom Room — Event Usher
+                </h3>
+
+
+                <h4
+                    data-en="Lege-cy Concert, 2x Tommyy Concerts, Studio El Etnin, Saleh El Nawawy Stand-Up Comedy, Tablet El Sitt"
+                    data-ar="حفل Lege-cy، حفلا Tommyy، Studio El Etnin، عروض Saleh El Nawawy للكوميديا، Tablet El Sitt"
+                >
+                    Lege-cy Concert, 2x Tommyy Concerts, Studio El Etnin, Saleh El Nawawy Stand-Up Comedy, Tablet El Sitt
+                </h4>
+
+
+                <p
+                    data-en="Supported venue operations, guest navigation, and crowd control for major live concerts and comedy performances."
+                    data-ar="المساعدة في عمليات تنظيم المكان، وتوجيه الزوار، وتنظيم الحشود خلال الحفلات والعروض الكوميدية الكبرى."
+                >
                     Supported venue operations, guest navigation, and crowd control for major live concerts and comedy performances.
                 </p>
+
             </div>
+
         </div>
 
+
     </div>
+
 </section>
 
-<!-- ================= SKILLS ================= -->
+
+
 
 <section id="skills" class="section narrow">
-    <p class="eyebrow">TOOLKIT</p>
-    <h2>Skills & Competencies</h2>
+
+
+    <p
+        class="eyebrow"
+        data-en="TOOLKIT"
+        data-ar="مجموعة المهارات"
+    >
+        TOOLKIT
+    </p>
+
+
+    <h2
+        data-en="Skills & Competencies"
+        data-ar="المهارات والكفاءات"
+    >
+        Skills & Competencies
+    </h2>
+
+
 
     <div class="skill-grid">
 
-        <div class="skill-card">
-            <div class="skill-number">01</div>
-            <h3>Data & BI Analytics</h3>
-            <p>Power BI · Tableau · Advanced Excel · Predictive & Prescriptive Analytics · DAX · Power Query</p>
-        </div>
 
         <div class="skill-card">
-            <div class="skill-number">02</div>
-            <h3>Programming & DB</h3>
-            <p>Python (Advanced: Pandas, NumPy) · SQL (Advanced Queries) · Microsoft SQL Server · SQLBI · Dart (Flutter)</p>
+
+            <div class="skill-number">
+                01
+            </div>
+
+            <h3
+                data-en="Data & BI Analytics"
+                data-ar="تحليلات البيانات وذكاء الأعمال"
+            >
+                Data & BI Analytics
+            </h3>
+
+            <p
+                data-en="Power BI · Tableau · Advanced Excel · Predictive & Prescriptive Analytics · DAX · Power Query"
+                data-ar="Power BI · Tableau · Advanced Excel · التحليلات التنبؤية والوصفية · DAX · Power Query"
+            >
+                Power BI · Tableau · Advanced Excel · Predictive & Prescriptive Analytics · DAX · Power Query
+            </p>
+
         </div>
 
-        <div class="skill-card">
-            <div class="skill-number">03</div>
-            <h3>Simulation & Strategy</h3>
-            <p>Arena Simulation 16 · Oracle Crystal Ball · Root Cause Analysis · KPI Monitoring · Requirement Definition</p>
-        </div>
+
 
         <div class="skill-card">
-            <div class="skill-number">04</div>
-            <h3>Automation & Development</h3>
-            <p>AI Automation (n8n) · Flutter Development · Firebase (Firestore, FCM) · UI/UX (Figma) · Git</p>
+
+            <div class="skill-number">
+                02
+            </div>
+
+            <h3
+                data-en="Programming & DB"
+                data-ar="البرمجة وقواعد البيانات"
+            >
+                Programming & DB
+            </h3>
+
+            <p>
+                Python (Advanced: Pandas, NumPy) · SQL (Advanced Queries) · Microsoft SQL Server · SQLBI · Dart (Flutter)
+            </p>
+
         </div>
 
-        <div class="skill-card">
-            <div class="skill-number">05</div>
-            <h3>Productivity & Office</h3>
-            <p>Microsoft Office Suite · Technical Documentation · Workflow Mapping</p>
-        </div>
+
 
         <div class="skill-card">
-            <div class="skill-number">06</div>
-            <h3>Creative & Design</h3>
-            <p>Adobe Photoshop · Video Editing · Visual Presentation</p>
+
+            <div class="skill-number">
+                03
+            </div>
+
+            <h3
+                data-en="Simulation & Strategy"
+                data-ar="المحاكاة والاستراتيجية"
+            >
+                Simulation & Strategy
+            </h3>
+
+            <p
+                data-en="Arena Simulation 16 · Oracle Crystal Ball · Root Cause Analysis · KPI Monitoring · Requirement Definition"
+                data-ar="Arena Simulation 16 · Oracle Crystal Ball · تحليل الأسباب الجذرية · متابعة مؤشرات الأداء · تحديد المتطلبات"
+            >
+                Arena Simulation 16 · Oracle Crystal Ball · Root Cause Analysis · KPI Monitoring · Requirement Definition
+            </p>
+
         </div>
+
+
+
+        <div class="skill-card">
+
+            <div class="skill-number">
+                04
+            </div>
+
+            <h3
+                data-en="Automation & Development"
+                data-ar="الأتمتة والتطوير"
+            >
+                Automation & Development
+            </h3>
+
+            <p
+                data-en="AI Automation (n8n) · Flutter Development · Firebase (Firestore, FCM) · UI/UX (Figma) · Git"
+                data-ar="الأتمتة بالذكاء الاصطناعي (n8n) · تطوير Flutter · Firebase (Firestore, FCM) · UI/UX (Figma) · Git"
+            >
+                AI Automation (n8n) · Flutter Development · Firebase (Firestore, FCM) · UI/UX (Figma) · Git
+            </p>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <div class="skill-number">
+                05
+            </div>
+
+            <h3
+                data-en="Productivity & Office"
+                data-ar="الإنتاجية وبرامج Office"
+            >
+                Productivity & Office
+            </h3>
+
+            <p
+                data-en="Microsoft Office Suite · Technical Documentation · Workflow Mapping"
+                data-ar="حزمة Microsoft Office · التوثيق التقني · رسم خرائط سير العمل"
+            >
+                Microsoft Office Suite · Technical Documentation · Workflow Mapping
+            </p>
+
+        </div>
+
+
+
+        <div class="skill-card">
+
+            <div class="skill-number">
+                06
+            </div>
+
+            <h3
+                data-en="Creative & Design"
+                data-ar="التصميم والإبداع"
+            >
+                Creative & Design
+            </h3>
+
+            <p
+                data-en="Adobe Photoshop · Video Editing · Visual Presentation"
+                data-ar="Adobe Photoshop · تحرير الفيديو · العروض المرئية"
+            >
+                Adobe Photoshop · Video Editing · Visual Presentation
+            </p>
+
+        </div>
+
 
     </div>
+
 </section>
 
-<!-- ================= COURSES & CERTIFICATIONS ================= -->
+
+
 
 <section id="certifications" class="section narrow">
-    <p class="eyebrow">CONTINUOUS LEARNING</p>
-    <h2>Courses & Certifications</h2>
+
+
+    <p
+        class="eyebrow"
+        data-en="CONTINUOUS LEARNING"
+        data-ar="التعلم المستمر"
+    >
+        CONTINUOUS LEARNING
+    </p>
+
+
+    <h2
+        data-en="Courses & Certifications"
+        data-ar="الدورات والشهادات"
+    >
+        Courses & Certifications
+    </h2>
+
+
 
     <div class="certifications">
 
-        <div class="certificate">
-            <span class="certificate-year">2026</span>
-            <div>
-                <h3>Google Project Management Professional Certificate</h3>
-                <p>Google & Coursera</p>
-            </div>
-        </div>
 
         <div class="certificate">
-            <span class="certificate-year">2025</span>
+
+            <span class="certificate-year">
+                2026
+            </span>
+
             <div>
-                <h3>HSBC Forage Job Simulation</h3>
-                <p>Net Zero Ideation & Data Recommendations</p>
+
+                <h3
+                    data-en="Google Project Management Professional Certificate"
+                    data-ar="الشهادة الاحترافية في إدارة المشاريع من Google"
+                >
+                    Google Project Management Professional Certificate
+                </h3>
+
+                <p>
+                    Google & Coursera
+                </p>
+
             </div>
+
         </div>
 
-        <div class="certificate">
-            <span class="certificate-year">2025</span>
-            <div>
-                <h3>Maharat min Google — Fundamentals of Digital Marketing</h3>
-                <p>Banque Misr × Google</p>
-            </div>
-        </div>
+
 
         <div class="certificate">
-            <span class="certificate-year">2024</span>
+
+            <span class="certificate-year">
+                2025
+            </span>
+
             <div>
-                <h3>ITI Business Intelligence Development</h3>
-                <p>Intensive BI Skills Program — Information Technology Institute</p>
+
+                <h3
+                    data-en="HSBC Forage Job Simulation"
+                    data-ar="محاكاة العمل من HSBC عبر Forage"
+                >
+                    HSBC Forage Job Simulation
+                </h3>
+
+                <p
+                    data-en="Net Zero Ideation & Data Recommendations"
+                    data-ar="ابتكار حلول صافي الانبعاثات الصفرية والتوصيات القائمة على البيانات"
+                >
+                    Net Zero Ideation & Data Recommendations
+                </p>
+
             </div>
+
         </div>
 
+
+
         <div class="certificate">
-            <span class="certificate-year">2023</span>
+
+            <span class="certificate-year">
+                2025
+            </span>
+
             <div>
-                <h3>NxL Youth Empowerment Program</h3>
-                <p>Modules in AI, Sustainability, and Data Analytics</p>
+
+                <h3
+                    data-en="Maharat min Google — Fundamentals of Digital Marketing"
+                    data-ar="مهارات من Google — أساسيات التسويق الرقمي"
+                >
+                    Maharat min Google — Fundamentals of Digital Marketing
+                </h3>
+
+                <p>
+                    Banque Misr × Google
+                </p>
+
             </div>
+
         </div>
+
+
+
+        <div class="certificate">
+
+            <span class="certificate-year">
+                2024
+            </span>
+
+            <div>
+
+                <h3
+                    data-en="ITI Business Intelligence Development"
+                    data-ar="تطوير ذكاء الأعمال — ITI"
+                >
+                    ITI Business Intelligence Development
+                </h3>
+
+                <p
+                    data-en="Intensive BI Skills Program — Information Technology Institute"
+                    data-ar="برنامج مكثف في مهارات ذكاء الأعمال — معهد تكنولوجيا المعلومات"
+                >
+                    Intensive BI Skills Program — Information Technology Institute
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="certificate">
+
+            <span class="certificate-year">
+                2023
+            </span>
+
+            <div>
+
+                <h3>
+                    NxL Youth Empowerment Program
+                </h3>
+
+                <p
+                    data-en="Modules in AI, Sustainability, and Data Analytics"
+                    data-ar="وحدات في الذكاء الاصطناعي والاستدامة وتحليلات البيانات"
+                >
+                    Modules in AI, Sustainability, and Data Analytics
+                </p>
+
+            </div>
+
+        </div>
+
 
     </div>
+
 </section>
 
-<!-- ================= EDUCATION ================= -->
+
+
 
 <section class="section education-section">
+
+
     <div class="education-card">
-        <p class="eyebrow">EDUCATION</p>
-        <h2>Egypt University of Informatics</h2>
-        <p class="degree">
-            Business Informatics <span>— Major: Business Analytics</span>
+
+
+        <p
+            class="eyebrow"
+            data-en="EDUCATION"
+            data-ar="التعليم"
+        >
+            EDUCATION
         </p>
-        <p class="education-date">
+
+
+        <h2>
+            Egypt University of Informatics
+        </h2>
+
+
+        <p
+            class="degree"
+            data-en="Business Informatics — Major: Business Analytics"
+            data-ar="نظم معلومات الأعمال — التخصص: تحليلات الأعمال"
+        >
+            Business Informatics
+            <span>
+                — Major: Business Analytics
+            </span>
+        </p>
+
+
+        <p
+            class="education-date"
+            data-en="Graduated: July 2026"
+            data-ar="التخرج: يوليو 2026"
+        >
             Graduated: July 2026
         </p>
-        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1.5rem 0;">
-        <p class="degree">
+
+
+        <hr
+            style="
+                border: 0;
+                border-top: 1px solid rgba(255,255,255,0.1);
+                margin: 1.5rem 0;
+            "
+        >
+
+
+        <p
+            class="degree"
+            data-en="Madinaty Language School"
+            data-ar="مدرسة مدينتي للغات"
+        >
             Madinaty Language School
         </p>
-        <p class="education-date">
+
+
+        <p
+            class="education-date"
+            data-en="Thanawya Amma — Graduated: 2022"
+            data-ar="الثانوية العامة — التخرج: 2022"
+        >
             Thanawya Amma — Graduated: 2022
         </p>
+
+
     </div>
+
 </section>
 
-<!-- ================= CONTACT ================= -->
+
+
 
 <section id="contact" class="contact section">
-    <p class="eyebrow">GET IN TOUCH</p>
-    <h2>Let's turn data into something useful.</h2>
-    <p>
+
+
+    <p
+        class="eyebrow"
+        data-en="GET IN TOUCH"
+        data-ar="تواصل معي"
+    >
+        GET IN TOUCH
+    </p>
+
+
+    <h2
+        data-en="Let's turn data into something useful."
+        data-ar="لنحوّل البيانات إلى شيء مفيد."
+    >
+        Let's turn data into something useful.
+    </h2>
+
+
+    <p
+        data-en="Whether it's a data analytics project, business intelligence dashboard, software solution, or full-time opportunity, feel free to reach out."
+        data-ar="سواء كان الأمر يتعلق بمشروع لتحليل البيانات، أو لوحة ذكاء أعمال، أو حل برمجي، أو فرصة عمل بدوام كامل، لا تتردد في التواصل معي."
+    >
         Whether it's a data analytics project, business intelligence dashboard, software solution, or full-time opportunity, feel free to reach out.
     </p>
 
+
     <div class="actions">
-        <a class="btn primary" href="mailto:saifmostafa565@gmail.com">
+
+
+        <a
+            class="btn primary"
+            href="mailto:saifmostafa565@gmail.com"
+            data-en="Email Me"
+            data-ar="راسلني"
+        >
             Email Me
         </a>
-        <a class="btn ghost" href="https://www.linkedin.com/in/saif-el-eslam-el-sherbine-64a0b9278/" target="_blank" rel="noopener noreferrer">
+
+
+        <a
+            class="btn ghost"
+            href="https://www.linkedin.com/in/saif-el-eslam-el-sherbine-64a0b9278/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-en="Connect on LinkedIn"
+            data-ar="تواصل معي عبر LinkedIn"
+        >
             Connect on LinkedIn
         </a>
+
     </div>
 
+
+
     <div class="contact-info">
+
+
         <a href="mailto:saifmostafa565@gmail.com">
             saifmostafa565@gmail.com
         </a>
-        <span>•</span>
-        <span>+20 1097882355</span>
-        <span>•</span>
-        <span>Madinaty, Cairo, Egypt</span>
+
+
+        <span>
+            •
+        </span>
+
+
+        <span>
+            +20 1097882355
+        </span>
+
+
+        <span>
+            •
+        </span>
+
+
+        <span
+            data-en="Madinaty, Cairo, Egypt"
+            data-ar="مدينتي، القاهرة، مصر"
+        >
+            Madinaty, Cairo, Egypt
+        </span>
+
+
     </div>
+
 </section>
+
 
 </main>
 
-<!-- ================= FOOTER ================= -->
+
+
 
 <footer>
-    <span>
+
+
+    <span
+        data-en="© 2026 Saif El Eslam Mostafa El Sherbini"
+        data-ar="© 2026 سيف الإسلام مصطفى الشربيني"
+    >
         © 2026 Saif El Eslam Mostafa El Sherbini
     </span>
 
+
     <div class="footer-links">
-        <a href="https://www.linkedin.com/in/saif-el-eslam-el-sherbine-64a0b9278/" target="_blank" rel="noopener noreferrer">
+
+
+        <a
+            href="https://www.linkedin.com/in/saif-el-eslam-el-sherbine-64a0b9278/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
             LinkedIn
         </a>
-        <a href="#home">
+
+
+        <a
+            href="#home"
+            data-en="Back to top ↑"
+            data-ar="العودة للأعلى ↑"
+        >
             Back to top ↑
         </a>
+
+
     </div>
+
 </footer>
+
+
+
 
 <script src="script.js"></script>
 
+
+
+
+<script>
+
+    const languageSwitch =
+        document.getElementById("languageSwitch");
+
+    let currentLanguage =
+        localStorage.getItem("portfolioLanguage") || "en";
+
+
+ 
+    function updateLanguage(language) {
+
+        const elements =
+            document.querySelectorAll("[data-en][data-ar]");
+
+
+        elements.forEach(function(element) {
+
+            element.textContent =
+                element.getAttribute(
+                    "data-" + language
+                );
+
+        });
+
+
+
+        if (language === "ar") {
+
+            document.documentElement.lang = "ar";
+
+            document.documentElement.dir = "rtl";
+
+            document.body.classList.add("arabic");
+
+            languageSwitch.textContent = "EN";
+
+            languageSwitch.setAttribute(
+                "aria-label",
+                "Switch to English"
+            );
+
+            document.title =
+                "سيف الإسلام مصطفى | محلل أعمال وبيانات";
+
+        } else {
+
+            document.documentElement.lang = "en";
+
+            document.documentElement.dir = "ltr";
+
+            document.body.classList.remove("arabic");
+
+            languageSwitch.textContent = "AR";
+
+            languageSwitch.setAttribute(
+                "aria-label",
+                "Switch to Arabic"
+            );
+
+            document.title =
+                "Saif El Eslam Mostafa | Business & Data Analyst";
+
+        }
+
+
+        localStorage.setItem(
+            "portfolioLanguage",
+            language
+        );
+
+    }
+
+
+    languageSwitch.addEventListener(
+        "click",
+        function() {
+
+            currentLanguage =
+                currentLanguage === "en"
+                    ? "ar"
+                    : "en";
+
+            updateLanguage(
+                currentLanguage
+            );
+
+        }
+    );
+
+
+   
+    updateLanguage(
+        currentLanguage
+    );
+
+</script>
+
+
 </body>
+
 </html>
